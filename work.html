@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Réalisations — Omar Alaoui Architectes</title>
+<meta name="description" content="Portfolio de projets — Omar Alaoui Architectes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="work" class="light">
+<a class="skip" href="#main">Aller au contenu</a>
+<div id="site-header"></div>
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Portfolio</span>
+      <h1><span class="mask"><span>Réalisations</span></span></h1>
+      <p>Une sélection de projets du cabinet. Descriptions et photographies complétées au fur et à mesure.</p>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="filters" role="group" aria-label="Filtrer par catégorie">
+        <button data-f="ALL" aria-pressed="true">TOUS</button>
+        <button data-f="RÉSIDENTIEL" aria-pressed="false">RÉSIDENTIEL</button>
+        <button data-f="COMMERCIAL" aria-pressed="false">COMMERCIAL</button>
+        <button data-f="CULTUREL" aria-pressed="false">CULTUREL</button>
+        <span id="count" style="margin-left:auto;font-size:.7rem;letter-spacing:.2em;color:var(--stone)" aria-live="polite">0 projets</span>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="script.js"></script>
+<script type="module" src="loader3d.js"></script>
+</body>
+</html>
